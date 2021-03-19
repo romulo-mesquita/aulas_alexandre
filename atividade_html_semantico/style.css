@@ -41,8 +41,8 @@ main {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     background-color: rgb(101, 101, 236);
-    padding: 10px;
-    grid-gap: 20px;
+    /* padding: 10px; */
+    grid-gap: 0px;
     
 }
 .titulo_text {
@@ -87,7 +87,6 @@ section article table thead{
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
-
 
 
 aside article figure{
