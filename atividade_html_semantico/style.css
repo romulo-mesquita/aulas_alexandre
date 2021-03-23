@@ -93,3 +93,49 @@ aside article figure{
     max-width: 50px;
     height: auto;
 }
+
+section article div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.formulario {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    grid-template-columns:auto
+}
+.group-input {
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-input{
+    padding:8px;
+    display:flex;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:50%
+}
+
+div {
+    padding: auto;
+    grid-template-columns: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    background-color:rgb(101, 101, 236);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

@@ -2,10 +2,11 @@
 <html lang="UTF-8">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <title>Atividade</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="javascript.js"></script>
     </head>
     <body>
         <nav>
@@ -37,43 +38,78 @@
                 <header>
                     <h3>Liguagens que ja usei no desenvolvimento web</h3>
                 </header>
-                <article>                    
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Liguagem</th>                                
-                                <th>Ano de criação</th>
-                                <th>Criado por</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Python</td>
-                                <td>1991</td>
-                                <td>Guido van Rossum</td>
-                            </tr>
-                            <tr>
-                                <td>Php</td>
-                                <td>1994</td>
-                                <td>Rasmus Lerdof</td>
-                            </tr>
-                            <tr>
-                                <td>JavaScript</td>
-                                <td>1995</td>
-                                <td>Brendan Eich</td>
-                            </tr>
-                            <tr>
-                                <td>CSS</td>
-                                <td>1994</td>
-                                <td>Hakon Lie</td>
-                            </tr>
-                            <tr>
-                                <td>HTML</td>
-                                <td>1991</td>
-                                <td>Tim Berners-Lee</td>
-                            </tr>                            
-                        </tbody>
-                    </table>
+                <article>
+                    <div>                    
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Liguagem</th>                                
+                                    <th>Ano de criação</th>
+                                    <th>Criado por</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>1991</td>
+                                    <td>Guido van Rossum</td>
+                                </tr>
+                                <tr>
+                                    <td>Php</td>
+                                    <td>1994</td>
+                                    <td>Rasmus Lerdof</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>1995</td>
+                                    <td>Brendan Eich</td>
+                                </tr>
+                                <tr>
+                                    <td>CSS</td>
+                                    <td>1994</td>
+                                    <td>Hakon Lie</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>1991</td>
+                                    <td>Tim Berners-Lee</td>
+                                </tr>                            
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="">
+                        <h3 class="text-center ">Deseja saber mais ?</h3>
+                        <h4>Insira seu dados de contato no formulario abaixo para receber mais informações</h4>
+                        <form class="formulario" onsubmit="return preencher_tabela('this');">
+                            <div class="group-input">
+                                <label for="id_Nome">Nome:</label>                            
+                                <input type="text" class="text-input" name="Nome" id="id_Nome">
+                            </div>
+                            <div class="group-input">
+                                <label for="id_Email">E-mail:</label>
+                                <input type="email" class="text-input" name="Email" id="id_Email"> 
+                            </div>
+                            <div class="group-input">
+                                <label for="id_Tel">Telefone</label>
+                                <input type="text" class="text-input" name="Tel" id="id_Tel">
+                            </div>
+                            <button class="btn" type="submit">Enviar</button>                           
+                        </form>
+                        <h2 class="text-center">Lista de contatos</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>E-mail</th>
+                                    <th>Telefone</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody_contato">
+                                
+                            </tbody>
+
+                        </table>
+                    </div>
                 </article>                
             </section>
             <aside>                
